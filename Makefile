@@ -1,13 +1,3 @@
-##
-## Makefile for Makefile in /home/cosson_v/rb-cosson_v
-## 
-## Made by Vincent Cosson
-## Login   <cosson_v@epitech.net>
-## 
-## Started on  Tue Apr 19 15:26:13 2016 Vincent Cosson
-## Last update Tue Apr 19 16:42:07 2016 Vincent Cosson
-##
-
 CC	= gcc
 
 RM	= rm -f
@@ -18,11 +8,11 @@ CFLAGS	+= -I./include
 
 LDFLAGS	=
 
-LIB	= -L./ -lrb
+#LIB	= -L./ -lrb
 
-NAME	= yo
+NAME	= 
 
-SRCS	= functions/rb_strupcase.c
+SRCS	=
 
 OBJS	= $(SRCS:.c=.o)
 
